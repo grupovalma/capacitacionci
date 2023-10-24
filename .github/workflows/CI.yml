@@ -38,3 +38,8 @@ jobs:
         projectBaseDir: .
     - name: SonarQube Quality Gate Check
       uses: SonarSource/sonarqube-quality-gate-action@v1.1.0
+      env:
+        SONAR_TOKEN: sqa_4e8aaeeb0132c752ae3fb1e32bddf93969873c84
+        SONAR_HOST_URL: http://20.1.230.61/sonarqube
+      
+    
